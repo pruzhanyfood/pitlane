@@ -35,7 +35,7 @@ export default function Page404() {
 
           <Box
             component="img"
-            src="pitlane/static/illustrations/illustration_404.svg"
+            src="static/illustrations/illustration_404.svg"
             sx={{ height: 260, mx: 'auto', my: { xs: 5, sm: 10 } }}
           />
 

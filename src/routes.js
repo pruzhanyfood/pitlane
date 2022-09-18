@@ -13,7 +13,7 @@ import Slides from './pages/Slides';
 export default function Router() {
   return useRoutes([
     {
-      path: '/menu',
+      path: 'menu',
       element: <DashboardLayout />,
       children: [
         { path: '/menu/products', element: <Products /> },
@@ -21,17 +21,17 @@ export default function Router() {
       ],
     },
     {
+      path: 'slides',
+      element: <Slides />,
+    },
+    {
       path: '/',
       element: <LogoOnlyLayout />,
       children: [
-        { path: '', element: <Navigate to="/menu/products" /> },
+        { path: '/', element: <Navigate to="/menu/products" /> },
         { path: '404', element: <NotFound /> },
         { path: '*', element: <Navigate to="/404" /> },
       ],
-    },
-    {
-      path: '/slides',
-      element: <Slides />,
     },
     {
       path: '*',
