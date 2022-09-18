@@ -11,9 +11,9 @@ import { BlogPostCard, BlogPostsSort, BlogPostsSearch } from '../sections/@menu/
 // ----------------------------------------------------------------------
 
 const images = [
-  { url: `${process.env.PUBLIC_URL}/static/slider/01.png` },
-  { url: `${process.env.PUBLIC_URL}/static/slider/02.png` },
-  { url: `${process.env.PUBLIC_URL}/static/slider/03.png` },
+  { url: `${process.env.PUBLIC_URL}/slider/01.png` },
+  { url: `${process.env.PUBLIC_URL}/slider/02.png` },
+  { url: `${process.env.PUBLIC_URL}/slider/03.png` },
 ];
 
 

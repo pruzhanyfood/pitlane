@@ -16,7 +16,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <HelmetProvider>
-    <BrowserRouter basename="/pitlane/">
+    <BrowserRouter basename="/pitlane">
       <App />
     </BrowserRouter>
   </HelmetProvider>

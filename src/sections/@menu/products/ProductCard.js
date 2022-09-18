@@ -47,7 +47,7 @@ export default function ShopProductCard({ product }) {
           </Label>
         )}
         {/* <ProductImgStyle alt={name} src={cover ? `https://drive.google.com/uc?export=view&id=${cover}` : ""} /> */}
-        <ProductImgStyle alt={name} src={cover ? `${process.env.PUBLIC_URL}/static/pitlane/${product.id}.png` : ""} />
+        <ProductImgStyle alt={name} src={cover ? `${process.env.PUBLIC_URL}/${product.id}.png` : ""} />
       </Box>
 
       <Stack spacing={2} sx={{ p: 3 }}>
