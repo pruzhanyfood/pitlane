@@ -6,6 +6,7 @@ import LogoOnlyLayout from './layouts/LogoOnlyLayout';
 import Blog from './pages/Blog';
 import NotFound from './pages/Page404';
 import Products from './pages/Products';
+import Slides from './pages/Slides';
 
 // ----------------------------------------------------------------------
 
@@ -27,6 +28,10 @@ export default function Router() {
         { path: '404', element: <NotFound /> },
         { path: '*', element: <Navigate to="/404" /> },
       ],
+    },
+    {
+      path: '/slides',
+      element: <Slides />,
     },
     {
       path: '*',
