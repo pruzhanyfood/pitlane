@@ -35,7 +35,7 @@ export default function Slides() {
         showNavs={false}
         // useGPURender={false}
         autoPlay
-        autoPlayDelay={3}
+        autoPlayDelay={45}
         slideDuration={2.0}
       />
     </Page>
