@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pitlane/static/css/main.25895456.css",
-    "main.js": "/pitlane/static/js/main.ec48982c.js",
+    "main.js": "/pitlane/static/js/main.d00a4f9c.js",
     "static/js/787.fc2862aa.chunk.js": "/pitlane/static/js/787.fc2862aa.chunk.js",
     "index.html": "/pitlane/index.html",
     "main.25895456.css.map": "/pitlane/static/css/main.25895456.css.map",
-    "main.ec48982c.js.map": "/pitlane/static/js/main.ec48982c.js.map",
+    "main.d00a4f9c.js.map": "/pitlane/static/js/main.d00a4f9c.js.map",
     "787.fc2862aa.chunk.js.map": "/pitlane/static/js/787.fc2862aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25895456.css",
-    "static/js/main.ec48982c.js"
+    "static/js/main.d00a4f9c.js"
   ]
 }
